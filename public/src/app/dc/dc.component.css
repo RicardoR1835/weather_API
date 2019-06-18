@@ -5,3 +5,8 @@ body {
 .sp {
     border: 2px solid aliceblue;
 }
+
+img {
+    display: inline-block;
+    width: 600px;
+}

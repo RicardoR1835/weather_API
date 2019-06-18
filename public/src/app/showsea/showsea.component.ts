@@ -9,6 +9,7 @@ import { HttpService } from '../http.service';
 })
 export class ShowseaComponent implements OnInit {
   weather = {};
+  link = "https://cdn.pixabay.com/photo/2017/07/24/13/42/seattle-2534686_960_720.jpg";
 
   constructor(
     private _route: ActivatedRoute,

@@ -9,6 +9,7 @@ import { HttpService } from '../http.service';
 })
 export class BurbankComponent implements OnInit {
   weather = {};
+  link = "https://ssl.cdn-redfin.com/photo/45/mbpaddedwide/370/genMid.BB15213370_0.jpg";
 
   constructor(
     private _route: ActivatedRoute,

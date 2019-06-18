@@ -9,6 +9,7 @@ import { HttpService } from '../http.service';
 })
 export class DcComponent implements OnInit {
   weather = {};
+  link = "https://cdn.pixabay.com/photo/2015/06/21/14/14/washington-monument-816642_960_720.jpg"
 
   constructor(
     private _route: ActivatedRoute,
